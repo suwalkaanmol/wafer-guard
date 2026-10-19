@@ -3,10 +3,9 @@
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://python.org)
 [![PyTorch 2.2+](https://img.shields.io/badge/PyTorch-2.2%2B-ee4c2c.svg)](https://pytorch.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![GDG Challenge](https://img.shields.io/badge/GDG%20Tech-Wildcard%20Entry%20AI%2FML-4285F4)](https://gdg.community.dev/)
 
 > **Pre-Release Model Audit & Pipeline Repair for Semiconductor Wafer Excursion Detection**  
-> *Conducted for Fab-7 Machine Learning Infrastructure Team (GDG Tech Wildcard Entry — AI/ML Domain)*  
+> *Conducted for Fab-7 Machine Learning Infrastructure Team*  
 > **Auditor & Author:** Anmol Suwalka ([@suwalkaanmol](https://github.com/suwalkaanmol))
 
 ---
@@ -130,4 +129,4 @@ wafer-guard/
 ## ⚖️ License & Attribution
 
 This project is released under the [MIT License](LICENSE).  
-Authored by **Anmol Suwalka** for the Google Developer Groups (GDG) On Campus VIT Vellore — Tech Wildcard Entry.
+Authored by **Anmol Suwalka**.
