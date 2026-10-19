@@ -42,6 +42,10 @@ When evaluated under strict physical causality ($t' > t$) and at the true natura
 | **Confusion Matrix** | $\text{TN}=288, \text{FP}=5, \text{FN}=0, \text{TP}=293$ | $\text{TN}=289, \text{FP}=8, \text{FN}=14, \text{TP}=3$ | Honest production confusion profile |
 | **Release Gate Verdict** | "PASSED ✅" | **"NO-GO 🛑 (Review Required)"** | Prevents production line shutdown failure |
 
+<p align="center">
+  <img src="artifacts/evaluation_diagnostics.png" alt="Fab-7 Model Evaluation Diagnostics" width="850"/>
+</p>
+
 ---
 
 ## 🛠️ Architecture & Repair Implementation

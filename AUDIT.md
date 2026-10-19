@@ -103,6 +103,10 @@ The repaired pipeline was evaluated on a strict out-of-sample chronological test
 | **PR-AUC (Avg Precision)** | $1.0000$ | **$0.1257$** | **>2.3× above random baseline ($0.0541$)** |
 | **Confusion Matrix** | $\text{TN}=288, \text{FP}=5, \text{FN}=0, \text{TP}=293$ | $\text{TN}=289, \text{FP}=8, \text{FN}=14, \text{TP}=3$ | Honest production confusion profile |
 
+<p align="center">
+  <img src="artifacts/evaluation_diagnostics.png" alt="Fab-7 Model Evaluation Diagnostics" width="800"/>
+</p>
+
 ### Metric Justification & Decision Threshold Procedure
 * **Why PR-AUC (Average Precision) is the Primary Metric:** In extreme class imbalance ($94.6\%$ pass vs $5.4\%$ fail), ROC-AUC is misleadingly forgiving of false positives. PR-AUC measures the exact trade-off between precision and recall across all thresholds. The repaired model's PR-AUC of **$0.1257$** demonstrates meaningful predictive power over the baseline prevalence of $0.0541$ (>2.3× lift).
 * **Threshold Procedure:** The decision threshold was tuned causally on training/validation history (targeting maximal F1 / balanced precision-recall) without inspecting test labels.
